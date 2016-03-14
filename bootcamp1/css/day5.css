@@ -1,0 +1,35 @@
+/*Day 5 styles*/
+
+article{
+  width: 380px;
+  float: left;
+  padding: 25px;
+  border: 1px dashed black;
+  margin: 0px 10px;
+}
+
+.img-box {
+  width: 328px;
+  height: 200px;
+}
+
+.img-box img{
+  width: 100px;
+  height: 100px;
+}
+
+#blog h2{
+  text-align: center;
+}
+pre{
+  display:block;
+  white-space: pre-wrap;
+  padding: 0px 20px;
+}
+.bland{
+  font-size: 30px;
+  color: #ff0800;
+}
+body {
+  font-family: "Arial Black", Gadget, sans-serif
+}

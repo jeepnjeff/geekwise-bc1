@@ -1,0 +1,127 @@
+/* Font Family ex.*/
+p {font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+h1 {font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2em;
+}
+/* Class for paragraphs name of the class is important*/
+p.important {
+    font-size:1.5em;
+}
+/* Class bigger font size 2.5 times bigger*/
+h3.bigger {
+    font-size: 2.5em;
+}
+
+/* General class to does not specify one particular para or headings*/
+.typewriter {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Font weight 100 lightest thru 900 being boldest 400 is normal
+words lighter, normal, bold, bolder*/
+p.important {
+    font-size: 2.0em;
+    font-weight: 900;
+}
+
+/* font-style italic or tag <i> or <em>.  font-weight using <b> or <strong>*/
+.emphasized {
+    font-style: italic
+}
+
+/* Class that defines colors of text*/
+.standout {
+  color: #cc0000;
+}
+
+/* word-spacing and letter-spacing normal =0em.  .1em wider.  -.05em would make spacing tighter
+   line-hieght 1.2em = normal.  1.8 = roughly extra half line taller.  1em slightly tighter*/
+p.spacing {
+    letter-spacing: 1em;
+    word-spacing: 1em;
+    line-height: 2.0em;
+}
+
+/* text-align: left, center, right, justify.  justify cleans up pargraphy and makes it even*/
+h3 {
+    text-align: center;
+}
+p.justify {
+    text-align: justify;
+}
+
+/*  text-indent 0em is defalt 1em would indent paragraph.  Blockquoteis used to indent a whole paragrapgh like a persons quote.*/
+p.indent {
+  text-indent: 1em;
+}
+p.block {
+  font-size .05em;
+    color:darkgrey;
+}
+
+/*  Margin specifying all fout margins set them up clockwise starting on top.  no margin is 0
+    not 0em.  ex p {margin: 0 0 1em o;} Individule ex. p {margin-bottom: 1em;}.*/
+p.margin {
+  margin: 2em 2em 2em 2em;
+}
+
+/* Borders set in this order: width, style, color.  Adding some padding to give it some space between text and border*/
+.boxed {
+  padding: .3em .3em .3em .3em;
+  border: 4px ridge #3e23d3;
+  text-align: center;
+}
+ /*  Grouping  */
+h4, p.mid {
+  text-align: center;
+}
+
+/*  Id setup  */
+h2#ids {
+  color: orange;
+}
+
+/*  Adding a div id section.  use id only if you plan on using it once on a page like header, navi menu, footer or main.  Use class if you may use more then once.*/
+
+div#special {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  float: none;
+}
+/*  Block vs inline   Block elements such as div take space across the whole screen unless other wise configured side by side.  ex side nav bar next to main content*/
+img.own-line {
+  display: block;
+  float: none;
+}
+  img.inset {
+    float: right;
+  }
+/*Center an image using margin-left auto margin-right auto own line*/
+img.center {
+  margin-left: auto; margin-right: auto;
+  display: block;
+}
+
+/*creating an img that wrap text around the right of image and clear it after first parargraph to start text below img*/
+
+img.wrap {
+  display: block;
+  float:left;
+  margin: 0px 16px 5px 0px;
+}
+p.no-wrap {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+}

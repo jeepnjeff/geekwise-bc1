@@ -1,0 +1,31 @@
+/*Header*/
+div#special {
+  /*Header Style*/
+  width: 1100px;
+  height: 75px;
+  border: 8px double green;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+
+  padding-left: 100px;
+  color: blue;
+  font-weight: 900;
+  font-size: 2em;
+  text-align: left;
+
+
+  /*Header Background Image Style*/
+  background-image: url(/home/jeff/Pictures/blog.jpg);
+  align-content: center;
+  background-color: #f200ff;
+  padding: 20px;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: right;
+  }
+
+  /*Body*/
+  h3 {
+    text-align: center;
+    padding-right: 100px;
+  }
