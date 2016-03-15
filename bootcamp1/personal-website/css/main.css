@@ -8,7 +8,91 @@ Color Theme:
   -Secondary color: #49007B
   -compliment color: #B8B400
   -Base Color: #B89400
-
-
-
 */
+
+/*===== Global Styles =====*/
+body, html{
+  margin: 0;
+  padding: 0;
+
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  a{
+  text-decoration: none;
+  color: #333;
+  }
+
+  .container{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  /*=====Header Styles  =====*/
+
+header{
+  height: 100px;
+  background-color: #17007F;
+  color: #fff;
+}
+
+header a{
+  color: #fff;
+}
+
+.logo{
+  width: 30%;
+  float:left;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.logo h1{
+    margin:0;
+}
+
+.menu{
+  width: 30%;
+  float: left;
+  margin-top: -1px;
+  margin-left: 42px;
+  font-size: 32px;
+}
+.menu li{
+  float: left;
+}
+
+.menu li:after{
+  padding-right: 10px;
+  content: " | ";
+}
+
+.sm-icons{
+  width: 30%;
+  float: right;
+  margin-top: 34px;
+  }
+
+.sm-icons a{
+  padding-right: 15px;
+  float: right;
+  font-size: 30px;
+}
+
+/*=====Banner Styles=====*/
+#banner{
+
+  height: 853px;
+
+  background-image:
+   url("../images/landscape-mountains-nature-lake.jpeg");
+  background-attachment: fixed;
+  background-size: cover
+}
+#banner h1{
+  text-align: center;
+  margin: 0px
+}
